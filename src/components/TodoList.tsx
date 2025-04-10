@@ -1,6 +1,6 @@
 import styles from './TodoList.module.css';
 import { Todo } from "../hooks/useTodoManager";
-import { TodoItem } from "./todoItem";
+import { TodoItem } from "./TodoItem";
 
 interface TodoListProps {
   todos: Todo[];
